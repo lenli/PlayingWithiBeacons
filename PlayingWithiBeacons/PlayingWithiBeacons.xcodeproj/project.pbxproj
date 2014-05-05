@@ -21,6 +21,8 @@
 		87BAE20A1917FAA000F918CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87BAE1EC1917FAA000F918CC /* UIKit.framework */; };
 		87BAE2121917FAA000F918CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87BAE2101917FAA000F918CC /* InfoPlist.strings */; };
 		87BAE2141917FAA000F918CC /* PlayingWithiBeaconsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BAE2131917FAA000F918CC /* PlayingWithiBeaconsTests.m */; };
+		87BAE21F191806F600F918CC /* LCLTrackingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BAE21E191806F500F918CC /* LCLTrackingViewController.m */; };
+		87BAE2231918072F00F918CC /* LCLTransmittingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BAE2221918072F00F918CC /* LCLTransmittingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		87BAE20F1917FAA000F918CC /* PlayingWithiBeaconsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlayingWithiBeaconsTests-Info.plist"; sourceTree = "<group>"; };
 		87BAE2111917FAA000F918CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		87BAE2131917FAA000F918CC /* PlayingWithiBeaconsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingWithiBeaconsTests.m; sourceTree = "<group>"; };
+		87BAE21D191806F500F918CC /* LCLTrackingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLTrackingViewController.h; sourceTree = "<group>"; };
+		87BAE21E191806F500F918CC /* LCLTrackingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLTrackingViewController.m; sourceTree = "<group>"; };
+		87BAE2211918072F00F918CC /* LCLTransmittingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLTransmittingViewController.h; sourceTree = "<group>"; };
+		87BAE2221918072F00F918CC /* LCLTransmittingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLTransmittingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +121,7 @@
 				87BAE1F71917FAA000F918CC /* LCLAppDelegate.h */,
 				87BAE1F81917FAA000F918CC /* LCLAppDelegate.m */,
 				87BAE1FA1917FAA000F918CC /* Main.storyboard */,
-				87BAE1FD1917FAA000F918CC /* LCLViewController.h */,
-				87BAE1FE1917FAA000F918CC /* LCLViewController.m */,
+				87BAE2201918070C00F918CC /* Controllers */,
 				87BAE2001917FAA000F918CC /* Images.xcassets */,
 				87BAE1EF1917FAA000F918CC /* Supporting Files */,
 			);
@@ -150,6 +155,19 @@
 				87BAE2101917FAA000F918CC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87BAE2201918070C00F918CC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				87BAE1FD1917FAA000F918CC /* LCLViewController.h */,
+				87BAE1FE1917FAA000F918CC /* LCLViewController.m */,
+				87BAE21D191806F500F918CC /* LCLTrackingViewController.h */,
+				87BAE21E191806F500F918CC /* LCLTrackingViewController.m */,
+				87BAE2211918072F00F918CC /* LCLTransmittingViewController.h */,
+				87BAE2221918072F00F918CC /* LCLTransmittingViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,8 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				87BAE1F91917FAA000F918CC /* LCLAppDelegate.m in Sources */,
+				87BAE2231918072F00F918CC /* LCLTransmittingViewController.m in Sources */,
 				87BAE1FF1917FAA000F918CC /* LCLViewController.m in Sources */,
 				87BAE1F51917FAA000F918CC /* main.m in Sources */,
+				87BAE21F191806F600F918CC /* LCLTrackingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

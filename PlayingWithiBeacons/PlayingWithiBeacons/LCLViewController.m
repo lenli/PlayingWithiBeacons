@@ -26,4 +26,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)trackButtonTapped:(UIButton *)sender {
+    
+}
+
+- (IBAction)transmitButtonTapped:(UIButton *)sender {
+    
+}
+
+
+
 @end
