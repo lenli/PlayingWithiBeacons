@@ -57,13 +57,17 @@
 }
 
 -(void)peripheralManagerDidUpdateState:(CBPeripheralManager *)peripheral {
+    UIAlertView *alertMessage;
     if (peripheral.state == CBPeripheralManagerStatePoweredOn) {
+        alertMessage = [[UIAlertView alloc] initWithTitle:@"Powered On" message:@"Powered On" delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil];
         NSLog(@"Powered On");
         [self.peripheralManager startAdvertising:self.beaconPeripheralData];
     } else if (peripheral.state == CBPeripheralManagerStatePoweredOff) {
         NSLog(@"Powered Off");
+        alertMessage = [[UIAlertView alloc] initWithTitle:@"Powered Off" message:@"Powered Off" delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil];
         [self.peripheralManager stopAdvertising];
     }
+    [alertMessage show];
 }
 
 - (void)setLabels {
