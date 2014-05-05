@@ -226,6 +226,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Leonard Li";
 				TargetAttributes = {
+					87BAE1E41917FAA000F918CC = {
+						DevelopmentTeam = D3R2N4L8FQ;
+					};
 					87BAE2051917FAA000F918CC = {
 						TestTargetID = 87BAE1E41917FAA000F918CC;
 					};
@@ -405,10 +408,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PlayingWithiBeacons/PlayingWithiBeacons-Prefix.pch";
 				INFOPLIST_FILE = "PlayingWithiBeacons/PlayingWithiBeacons-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -418,10 +424,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PlayingWithiBeacons/PlayingWithiBeacons-Prefix.pch";
 				INFOPLIST_FILE = "PlayingWithiBeacons/PlayingWithiBeacons-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
