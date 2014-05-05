@@ -23,6 +23,8 @@
 		87BAE2141917FAA000F918CC /* PlayingWithiBeaconsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BAE2131917FAA000F918CC /* PlayingWithiBeaconsTests.m */; };
 		87BAE21F191806F600F918CC /* LCLTrackingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BAE21E191806F500F918CC /* LCLTrackingViewController.m */; };
 		87BAE2231918072F00F918CC /* LCLTransmittingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BAE2221918072F00F918CC /* LCLTransmittingViewController.m */; };
+		87BAE2251918231500F918CC /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87BAE2241918231500F918CC /* CoreBluetooth.framework */; };
+		87BAE2271918231E00F918CC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87BAE2261918231E00F918CC /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		87BAE21E191806F500F918CC /* LCLTrackingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLTrackingViewController.m; sourceTree = "<group>"; };
 		87BAE2211918072F00F918CC /* LCLTransmittingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLTransmittingViewController.h; sourceTree = "<group>"; };
 		87BAE2221918072F00F918CC /* LCLTransmittingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLTransmittingViewController.m; sourceTree = "<group>"; };
+		87BAE2241918231500F918CC /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		87BAE2261918231E00F918CC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87BAE2271918231E00F918CC /* CoreLocation.framework in Frameworks */,
+				87BAE2251918231500F918CC /* CoreBluetooth.framework in Frameworks */,
 				87BAE1EB1917FAA000F918CC /* CoreGraphics.framework in Frameworks */,
 				87BAE1ED1917FAA000F918CC /* UIKit.framework in Frameworks */,
 				87BAE1E91917FAA000F918CC /* Foundation.framework in Frameworks */,
@@ -107,6 +113,8 @@
 		87BAE1E71917FAA000F918CC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				87BAE2261918231E00F918CC /* CoreLocation.framework */,
+				87BAE2241918231500F918CC /* CoreBluetooth.framework */,
 				87BAE1E81917FAA000F918CC /* Foundation.framework */,
 				87BAE1EA1917FAA000F918CC /* CoreGraphics.framework */,
 				87BAE1EC1917FAA000F918CC /* UIKit.framework */,
